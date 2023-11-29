@@ -1,6 +1,5 @@
 import React from 'react';
 import './HomePage.css';
-import edificio from '../img/EdifPublic.jpg'
 
 const HomePage = () => {
   return (

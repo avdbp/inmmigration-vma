@@ -68,6 +68,27 @@
     background-image: url('../img/EdifPublic.jpg');
     background-image: cover;
   }
+
+  .construction {
+
+   text-align: center;
+  }
+
+  .construction img  {
+   width: 250px !important;
+   
+  }
+
+  .constructionLogo {
+
+    text-align: center;
+   }
+ 
+   .constructionLogo img  {
+    width: 250px !important;
+    margin-top: 20px;
+    
+   }
   
   @media (max-width: 994px) {
     

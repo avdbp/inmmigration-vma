@@ -1,13 +1,18 @@
 import './App.css';
-import NavBar from './components/NavBar';
+import{ Routes, Route } from "react-router-dom";
 import HomePage from './pages/HomePage';
+import InConstructionPage from './pages/InConstructionPage';
 
 function App() {
   return (
     <div className="App">
     <div className='navbar'>
-      <NavBar />
-      <HomePage />
+      {/* <NavBar /> */}
+      <Routes>
+        <Route path="/homepage" element={<HomePage />} />
+        <Route path="/" element={<InConstructionPage />} />
+
+        </Routes>
     </div>
       
 
