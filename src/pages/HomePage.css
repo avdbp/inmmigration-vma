@@ -318,6 +318,7 @@
 
 
    .listaServiciosol {
+    margin: 0px;
     width: 100%;
     font-size: 1.3rem;
     line-height: 1.6;
@@ -327,6 +328,7 @@
    }
 
    .listaServiciosolTips {
+    margin: 0px;
     width: 100%;
     font-size: 1.3rem;
     line-height: 1.6;
