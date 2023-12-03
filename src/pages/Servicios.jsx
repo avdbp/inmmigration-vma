@@ -1,6 +1,6 @@
 import React from 'react';
 import './HomePage.css';
-import libertad from '../img/libertad.webp'
+import libertad from '../img/libertadRed.png'
 
 
 const Servicios = () => {

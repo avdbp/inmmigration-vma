@@ -310,8 +310,17 @@
         margin-bottom: 10px;
       }
 
-      .libertad img {
+      .libertad {
+        float: right;
         width: 300px;
+        margin: 0px;
+      
+    
+       }
+      .libertad img {
+        float: right;
+        width: 300px;
+        margin: 0px;
       
     
        }
