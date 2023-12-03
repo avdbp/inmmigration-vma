@@ -189,6 +189,17 @@
     padding: 70px;
    }
 
+   .listaServiciosolTips {
+    border-radius: 25px 0px 25px 25px;
+    font-size: 1.3rem;
+    line-height: 1.6;
+    margin: 0px 120px 0px 80px;
+    background-color:#293775;
+    color: white;
+    padding: 70px;
+
+   }
+
    
   
   @media (max-width: 994px) {
