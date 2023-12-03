@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import logo from '../img/logoVMA.png';
 import './NavBar.css';
+import { NavLink } from 'react-router-dom';
 
 const NavBar = () => {
   return (
@@ -19,14 +20,14 @@ const NavBar = () => {
         <Navbar.Toggle aria-controls="navbar-nav" className='toggle'></Navbar.Toggle>
         <Navbar.Collapse id="navbar-nav" style={{ padding: '0 50px' }}>
           <Nav className="ml-auto nav-link" style={{ padding: '0 0px' }}>
-            <Nav.Link className='cool-link' href="#inicio">Inicio</Nav.Link>
-            <Nav.Link className='cool-link' href="#acerca-de">Nosotros</Nav.Link>
-            <Nav.Link className='cool-link' href="#servicios">Servicios</Nav.Link>
-            <Nav.Link className='cool-link' href="#registrate">Registrate</Nav.Link>
-            <Nav.Link className='cool-link' href="#Consejos">Consejos</Nav.Link>
-            <Nav.Link className='cool-link' href="#Contacto">
+            <NavLink to="/" className="cool-link">Inicio</NavLink>
+            <NavLink to="/nosotros" className="cool-link">Nosotros</NavLink>
+            <NavLink to="/servicios" className="cool-link">Servicios</NavLink>
+            {/* <NavLink to="/registrate" className="cool-link">Registrate</NavLink> */}
+            <NavLink to="/consejos" className="cool-link">Consejos</NavLink>
+            <NavLink to="/contacto" className="cool-link">
               <FontAwesomeIcon icon={faEnvelope} />
-            </Nav.Link>
+              </NavLink>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

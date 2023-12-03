@@ -1,0 +1,50 @@
+.contact-container {
+  width: 100%;
+  text-align: center;
+}
+
+.containerContacto {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.text-container {
+  width: 400px; /* Adjust as needed */
+}
+
+.form-container {
+  width: 400px; /* Adjust as needed */
+}
+
+.formulario {
+  background-color: rgb(208,46,38);
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  box-shadow: 3px 3px 40px rgb(166, 164, 164);
+  margin-bottom: 20px;
+
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.btn-primary {
+  background-color:#293775 !important;
+  color: #fff;
+  box-shadow: 1px 1px 2px rgb(103, 101, 101);
+
+}
+
+.iconos {
+width: 50px;
+}
+
+.correo {
+  color: white;
+  font-weight: 700;
+}

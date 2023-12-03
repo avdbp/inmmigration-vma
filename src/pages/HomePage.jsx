@@ -1,5 +1,9 @@
 import React from 'react';
 import './HomePage.css';
+import flat from '../img/flat.png'
+import contacto from '../img/contactopng.png'
+import { Link } from 'react-router-dom';
+
 
 const HomePage = () => {
   return (
@@ -14,24 +18,26 @@ const HomePage = () => {
       </section>
 
       <section className='ourServices'>
-      <div className='ourServicesText'>
-        <h2>Nuestros Servicios</h2>
-        <p>Ofrecemos asesoramiento personalizado en una variedad de áreas migratorias, incluyendo:</p>
+        <div className='ourServicesText'>
+          <h2>Nuestros Servicios</h2>
+          <p>Ofrecemos asesoramiento personalizado en una variedad de áreas migratorias, incluyendo:</p>
 
-        <ul>
-          <li>Asilo</li>
-          <li>Residencia</li>
-          <li>Permiso de Trabajo</li>
-          <li>TPS (Estatus de Protección Temporal)</li>
-          <li>Ciudadanía</li>
-          <li>Apertura de Compañías</li>
-          <li>Parole (Permiso Humanitario)</li>
-          <li>Peticiones Familiares</li>
-        </ul>
+          <ul>
+            <li className='listaServicios'>Asilo</li>
+            <li className='listaServicios'>Residencia</li>
+            <li className='listaServicios'>Permiso de Trabajo</li>
+            <li className='listaServicios'>TPS (Estatus de Protección Temporal)</li>
+            <li className='listaServicios'>Ciudadanía</li>
+            <li className='listaServicios'>Apertura de Compañías</li>
+            <li className='listaServicios'>Parole (Permiso Humanitario)</li>
+            <li className='listaServicios'>Peticiones Familiares</li>
+          </ul>
 
-        <p>Además, ofrecemos servicios notariales y registro de marcas.</p>
+          <p>Además, ofrecemos servicios notariales y registro de marcas.</p>
+      </div>  
+        <div className='flat'>
+          <img  src={flat} alt="Flat" />   
         </div>
-        <div className='ourServiceImg'></div>
       </section>
 
       <section className='immigrantGuide'>
@@ -40,20 +46,27 @@ const HomePage = () => {
       </section>
 
       <section className='contactUs'>
-        <h2>Contáctanos</h2>
-        <p>En [Nombre de tu Consultora], nos apasiona ayudarte a alcanzar tus metas migratorias. Ponte en contacto con nosotros para programar una consulta y comenzar tu viaje hacia un futuro legal en los Estados Unidos.</p>
+        <div className='contactUsText' >
+          <h2>Contáctanos</h2>
+          <p>En <strong>VMA</strong>, nos apasiona ayudarte a alcanzar tus metas migratorias. Ponte en contacto con nosotros para programar una consulta y comenzar tu viaje hacia un futuro legal en los Estados Unidos. <Link className='contactoLink' to="/contacto">Contactanos aquí</Link></p>
+        </div>
+      
+        <div className='contacto'>
+          <img  src={contacto} alt="Contacto" />   
+        </div>
       </section>
+      
 
       <section className='testimonials'>
         <h2>Testimonios</h2>
-        <blockquote>
-          <p>"Gracias a [Nombre de tu Consultora], logré obtener mi residencia permanente. Su equipo profesional y comprometido hizo que todo el proceso fuera mucho más fácil."</p>
-          <footer>— Cliente Satisfecho</footer>
+        <blockquote className='blockquote'>
+          <p>"Gracias a <strong>VMA</strong>, logré obtener mi residencia permanente. Su equipo profesional y comprometido hizo que todo el proceso fuera mucho más fácil."</p>
+          <p>— Cliente Satisfecho</p>
         </blockquote>
 
-        <blockquote>
-          <p>"La asesoría experta de [Nombre de tu Consultora] fue clave para mi éxito en la obtención de la ciudadanía. Los recomendaría sin dudarlo."</p>
-          <footer>— Otra Historia de Éxito</footer>
+        <blockquote className='blockquote' >
+          <p>"La asesoría experta de <strong>VMA</strong> fue clave para mi éxito en la obtención de la ciudadanía. Los recomendaría sin dudarlo."</p>
+          <p>— Otra Historia de Éxito</p>
         </blockquote>
       </section>
     </div>

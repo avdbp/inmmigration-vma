@@ -1,0 +1,16 @@
+.containerFooterImg {
+    display: flex;
+    justify-content: center;
+}
+
+.contactoFooter img {
+width: 90px;
+padding: 20px;
+}
+
+.containerFooter {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
