@@ -36,7 +36,7 @@ const ContactoPage = () => {
       <div className='containerContacto'>
         <div className='text-container'>
           <h1>Contacto</h1>
-          <p>Envíanos un mensaje a <br/>nuestro <img className='iconos' src={email} alt="Correo" /> <strong>correo</strong> y te responderemos a la brevedad posible. También puedes llamarnos o escribirnos a nuestro número de WhatsApp:<br/> <strong><img className='iconos' src={ws} alt="WhatsApp" />  <a href="https://wa.me/19548530131" target="_blank">954 853 0131</a></strong><br/>También puedes seguirnos por nuestras Redes Sociales por nuestro usuario<br/> <img className='iconos' src={ig} alt="Instagram" /> <strong><a href="https://ig.me/m/immigration.vma" target="_blank">@immigration.vma</a></strong></p>
+          <p>Envíanos un mensaje a <br/>nuestro <img className='iconos' src={email} alt="Correo" /> <strong>correo</strong> y te responderemos <br/>a la brevedad posible. <br/>Si lo prefieres puedes llamarnos o escribirnos a nuestro número de WhatsApp:<br/> <strong><img className='iconos' src={ws} alt="WhatsApp" />  <a href="https://wa.me/19548530131" target="_blank">954 853 0131</a></strong><br/>También puedes seguirnos por nuestras Redes Sociales por nuestro usuario<br/> <img className='iconos' src={ig} alt="Instagram" /> <strong><a href="https://ig.me/m/immigration.vma" target="_blank">@immigration.vma</a></strong></p>
 
         </div>
         <div className='form-container'>
