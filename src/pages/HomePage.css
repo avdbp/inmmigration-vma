@@ -380,6 +380,11 @@
     margin-left: 0px;
     margin-right: 0px;
   }
+
+  .text-container {
+    margin: 0px;
+    padding: 30px;
+  }
 }
 
 
