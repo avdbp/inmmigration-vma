@@ -316,6 +316,8 @@
       }
 
       .libertad {
+        margin-left: auto !important;
+        display: block !important;
         float: right;
         width: 300px;
         margin: 0px;
@@ -323,7 +325,8 @@
     
        }
       .libertad img {
-        float: right;
+        margin-left: auto !important;
+        display: block !important;
         width: 300px;
         margin: 0px;
       
