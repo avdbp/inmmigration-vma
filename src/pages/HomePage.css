@@ -318,6 +318,7 @@
 
 
    .listaServiciosol {
+    width: 100%;
     font-size: 1.3rem;
     line-height: 1.6;
     background-color: #d02e26;
@@ -326,6 +327,7 @@
    }
 
    .listaServiciosolTips {
+    width: 100%;
     font-size: 1.3rem;
     line-height: 1.6;
     background-color:#293775;
