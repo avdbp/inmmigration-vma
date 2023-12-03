@@ -9,7 +9,7 @@ const ConsejosPage = () => {
      
     <header className='headerUs' >
     <div>
-    <h1 className='titleServicios'>Servicios</h1>
+    <h1 className='titleServicios'>Consejos</h1>
       <p className='headerUsText'>Te damos la bienvenida a tu nueva vida en los Estados Unidos. Para hacer tu transición más suave, aquí hay algunos consejos prácticos para los nuevos inmigrantes. Desde la documentación esencial hasta la construcción de tu historial crediticio, estos consejos te ayudarán a dar los primeros pasos hacia un futuro exitoso en tu nuevo hogar.</p>
     </div>  
       <div className='libertad'>
