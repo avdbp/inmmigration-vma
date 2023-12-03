@@ -318,6 +318,7 @@
 
 
    .listaServiciosol {
+    border-radius: 0px;
     margin: 0px;
     width: 100%;
     font-size: 1.3rem;
@@ -328,6 +329,7 @@
    }
 
    .listaServiciosolTips {
+    border-radius: 0px;
     margin: 0px;
     width: 100%;
     font-size: 1.3rem;
