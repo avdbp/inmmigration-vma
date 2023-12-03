@@ -348,5 +348,21 @@
     padding: 70px;
 
    }
+
+   .manos img {
+    width: 300px;
+    margin: 0px;
+    
+   }
+   .flat img {
+    width: 300px;
+    margin: 0px;
+
+   }
+   .arbol img {
+    width: 450px;
+   margin: 0px;
+  }
 }
+
 
