@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 const HomePage = () => {
   return (
     <div className='containerHome'>
-      <h1 className='title'>Somos Especialistas en Asistencia Migratoria</h1>
+      <h1 className='title'>Somos Especialistas en Asistencia Migratoria</h1><br/><h2 className='noSomosAbogados' >No somos abogados</h2>
 
       <section className='whyChooseUs'>
         <h2>¿Por qué elegirnos?</h2>

@@ -11,7 +11,7 @@ const Nosotros = () => {
     <header className='headerUs' >
     <div>
     <h1 className='title'>Sobre Nosotros</h1>
-      <p className='headerUsText'>En VMA, nos dedicamos a ser más que simplemente líderes en asesoramiento migratorio en los Estados Unidos; somos un equipo comprometido con el éxito y el bienestar de nuestros clientes. Nuestra historia se ha forjado a través de la experiencia, la dedicación y la pasión por ayudar a individuos y familias a alcanzar sus metas migratorias en un nuevo país.</p>
+      <p className='headerUsText'>En VMA, nos dedicamos a ser más que simplemente líderes en asesoramiento migratorio en los Estados Unidos; somos un equipo comprometido con el éxito y el bienestar de nuestros clientes. Nuestra historia se ha forjado a través de la experiencia, la dedicación y la pasión por ayudar a individuos y familias a alcanzar sus metas migratorias en un nuevo país. Recuerda siempre, NO SOMOS ABOGADOS, somos especialista en asistencia migratoria</p>
     </div>  
       <div className='arbol'>
           <img  src={arbol} alt="Árbol" />   
