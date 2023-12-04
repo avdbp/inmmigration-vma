@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import './Footer.css';
 import ig from '../img/ig.png'
 import phone from '../img/phone.png'
@@ -11,21 +12,21 @@ const Footer = () => {
     <div className='containerFooter'>
     <div className='containerFooterImg'>
      
-        <div className='contactoFooter'>
-          <img  src={phone} alt="Contacto" />   
-        </div>
+        <NavLink className="contactoFooter" to="tel:9546322636" target="_blank">
+          <img src={phone} alt="Phone" />
+        </NavLink>
 
-        <div className='contactoFooter'>
-          <img  src={ws} alt="Contacto" />   
-        </div>
+        <NavLink className="contactoFooter" to="https://wa.me/19548530131" target="_blank">
+          <img src={ws} alt="WhatsApp" />
+        </NavLink>
 
-        <div className='contactoFooter'>
-          <img  src={email} alt="Contacto" />   
-        </div>
+        <NavLink className="contactoFooter" to="/contacto" target="_blank">
+          <img src={email} alt="Email" />
+        </NavLink>
 
-        <div className='contactoFooter'>
-          <img  src={ig} alt="Contacto" />   
-        </div>
+        <NavLink className="contactoFooter" to="https://ig.me/m/immigration.vma" target="_blank">
+          <img src={ig} alt="Instagram" />
+        </NavLink>
         
     </div>
    
