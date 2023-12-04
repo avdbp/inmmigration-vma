@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /private/  # Indica a los motores de búsqueda no rastrear la carpeta /private/
+Disallow: /admin/    # Indica a los motores de búsqueda no rastrear la carpeta /admin/
+Disallow: /login.html  # Indica a los motores de búsqueda no rastrear una página específica (/login.html)
+
+# Permite el acceso a todas las demás páginas
+Allow: /
+
+# Define la ubicación del sitemap.xml
+Sitemap: https://www.immigration-vma.com/public/sitemap.xml
