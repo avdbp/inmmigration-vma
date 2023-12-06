@@ -52,7 +52,9 @@ width: 30px;
 .pContacto {
   text-align: left;
 }
-
+.pContactoRRSS {
+  text-align: left;
+}
 
 
 @media (max-width: 994px) {
