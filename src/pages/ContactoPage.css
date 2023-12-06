@@ -41,12 +41,16 @@
 }
 
 .iconos {
-width: 50px;
+width: 30px;
 }
 
 .correo {
   color: white;
   font-weight: 700;
+}
+
+.pContacto {
+  text-align: left;
 }
 
 
