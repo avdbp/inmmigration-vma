@@ -61,12 +61,12 @@ const HomePage = () => {
         <h2>Testimonios</h2>
         <blockquote className='blockquote'>
           <p>"Gracias a <strong>VMA</strong>, logré obtener mi residencia permanente. Su equipo profesional y comprometido hizo que todo el proceso fuera mucho más fácil."</p>
-          <p>— Cliente Satisfecho</p>
+          <p>— José Terán</p>
         </blockquote>
 
         <blockquote className='blockquote' >
           <p>"La asesoría experta de <strong>VMA</strong> fue clave para mi éxito en la obtención de la ciudadanía. Los recomendaría sin dudarlo."</p>
-          <p>— Otra Historia de Éxito</p>
+          <p>— Ricardo Milito</p>
         </blockquote>
       </section>
     </div>
