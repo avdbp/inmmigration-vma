@@ -8,12 +8,12 @@ import { Link } from 'react-router-dom';
 const HomePage = () => {
   return (
     <div className='containerHome'>
-      <h1 className='title'>Somos Especialistas en Asistencia Migratoria</h1><br/><h2 className='noSomosAbogados' >No somos abogados</h2>
+      <h1 className='title'>Somos Especialistas en Asistencia Migratoria</h1>
 
       <section className='whyChooseUs'>
         <h2>¿Por qué elegirnos?</h2>
         <p>
-          En <strong>VMA</strong>, nos enorgullece ser líderes en asesoramiento migratorio en los Estados Unidos. Nuestra experiencia y dedicación nos convierten en la opción ideal para guiarlo a través de los complejos procesos migratorios. En <strong>VMA</strong>, entendemos que cada caso es único, y trabajamos de cerca con nuestros clientes para lograr resultados exitosos.
+          En <strong>VMA</strong>, nos enorgullece ser líderes en asesoramiento migratorio en los Estados Unidos. Dejamos claro que no somos abogados, pero nuestra experiencia y dedicación nos convierten en la opción ideal para guiarlo a través de los complejos procesos migratorios. En <strong>VMA</strong>, entendemos que cada caso es único, y trabajamos de cerca con nuestros clientes para lograr resultados exitosos.
         </p>
       </section>
 
