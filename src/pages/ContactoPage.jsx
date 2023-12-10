@@ -5,6 +5,7 @@ import ws from '../img/ws.png'
 import email from '../img/email.png'
 import ig from '../img/ig.png'
 import emailw from '../img/emailw.png'
+import { Helmet } from 'react-helmet';
 
 
 const ContactoPage = () => {
@@ -32,12 +33,18 @@ const ContactoPage = () => {
   };
 
   return (
+
+    <div>
+
+    <Helmet title='VMA-Contacto'/>
+
+
     <div className='contact-container'>
       <div className='containerContacto'>
         <div className='text-container'>
           <h1>Contacto</h1>
           <p className='pContacto'>Escríbenos a nuestro <img className='iconos' src={email} alt="Correo" /> <strong>correo</strong> mediante nuestro formulario y te responderemos a la brevedad posible.<br/><p></p> Si lo prefieres, contáctanos por nuestro número de WhatsApp:
-          </p><p className='pContactoWS'><strong><img className='iconos' src={ws} alt="WhatsApp" />  <a href="https://wa.me/19548530131" target="_blank">+1 (954)8530131</a> </strong> <br/></p> <p className='pContactoRRSS'>También puedes seguirnos en nuestras Redes Sociales por nuestro usuario <br/></p><p><img className='iconos' src={ig} alt="Instagram" /> <strong><a href="https://ig.me/m/immigration.vma" target="_blank">@immigration.vma</a></strong></p>
+          </p><p className='pContactoWS'><strong><img className='iconos' src={ws} alt="WhatsApp" />  <a href="https://wa.me/19548530131" target="_blank" rel="noreferrer">+1 (954)8530131</a> </strong> <br/></p> <p className='pContactoRRSS'>También puedes seguirnos en nuestras Redes Sociales por nuestro usuario <br/></p><p><img className='iconos' src={ig} alt="Instagram" /> <strong><a href="https://ig.me/m/immigration.vma" target="_blank" rel="noreferrer">@immigration.vma</a></strong></p>
 
         </div>
         <div className='form-container'>
@@ -73,6 +80,7 @@ const ContactoPage = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };

@@ -1,10 +1,17 @@
 import React from 'react';
 import './HomePage.css';
 import libertad from '../img/libertadBlue.png'
+import { Helmet } from 'react-helmet';
 
 
 const ConsejosPage = () => {
   return (
+    <div>
+
+    <Helmet title='VMA-Consejos'/>
+
+
+
     <div className='containerHome'>
      
     <header className='headerUs' >
@@ -54,6 +61,7 @@ const ConsejosPage = () => {
     </ol>
 
     <p>Recuerda que cada experiencia es única, y estos consejos pueden adaptarse según tu situación personal y el lugar específico donde te encuentres. ¡Buena suerte en tu nueva vida en los Estados Unidos!</p>
+    </div>
     </div>
     </div>
   );
