@@ -2,14 +2,10 @@ import React from 'react';
 import './HomePage.css';
 import manos from '../img/manos.png'
 import arbol from '../img/arbol.png'
-import { Helmet } from 'react-helmet';
 
 
 const Nosotros = () => {
   return (
-    <div>
-
-    <Helmet title='VMA-Nosotros'/>
     <div className='containerHome'>
      
     <header className='headerUs' >
@@ -49,7 +45,6 @@ const Nosotros = () => {
       
 
      
-    </div>
     </div>
   );
 };

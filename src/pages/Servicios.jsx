@@ -1,16 +1,10 @@
 import React from 'react';
 import './HomePage.css';
 import libertad from '../img/libertadRed.png'
-import { Helmet } from 'react-helmet';
 
 
 const Servicios = () => {
   return (
-
-
-    <div>
-      <Helmet title='VMA-Servicios'/>
-    
     <div className='containerHome'>
      
     <header className='headerUs' >
@@ -57,7 +51,6 @@ const Servicios = () => {
     <li><strong>Registro de Marcas:</strong> Ayudamos a proteger la propiedad intelectual de nuestros clientes mediante el
       registro de marcas, garantizando que sus marcas comerciales estén legalmente reconocidas y protegidas.</li>
   </ol>
-    </div>
     </div>
   );
 };

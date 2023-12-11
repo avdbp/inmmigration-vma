@@ -3,15 +3,10 @@ import './HomePage.css';
 import flat from '../img/flat.png'
 import contacto from '../img/contactopng.png'
 import { Link } from 'react-router-dom';
-import { Helmet } from 'react-helmet';
-
 
 
 const HomePage = () => {
   return (
-
-    <div>
-    <Helmet title='VMA-Inicio'/>
     <div className='containerHome'>
       <h1 className='title'>Somos Especialistas en Asistencia Migratoria</h1>
 
@@ -74,7 +69,6 @@ const HomePage = () => {
           <p>— Ricardo Milito</p>
         </blockquote>
       </section>
-    </div>
     </div>
   );
 };
