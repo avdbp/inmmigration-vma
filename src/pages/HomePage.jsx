@@ -3,11 +3,13 @@ import './HomePage.css';
 import flat from '../img/flat.png'
 import contacto from '../img/contactopng.png'
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 
 const HomePage = () => {
   return (
     <div className='containerHome'>
+    <Helmet title='VMA-Inicio'></Helmet>
       <h1 className='title'>Somos Especialistas en Asistencia Migratoria</h1>
 
       <section className='whyChooseUs'>

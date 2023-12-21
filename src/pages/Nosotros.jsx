@@ -2,11 +2,13 @@ import React from 'react';
 import './HomePage.css';
 import manos from '../img/manos.png'
 import arbol from '../img/arbol.png'
+import { Helmet } from 'react-helmet';
 
 
 const Nosotros = () => {
   return (
     <div className='containerHome'>
+    <Helmet title='VMA-Nosotros'></Helmet>
      
     <header className='headerUs' >
     <div>

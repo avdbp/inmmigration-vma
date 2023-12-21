@@ -5,6 +5,7 @@ import ws from '../img/ws.png'
 import email from '../img/email.png'
 import ig from '../img/ig.png'
 import emailw from '../img/emailw.png'
+import { Helmet } from 'react-helmet';
 
 
 const ContactoPage = () => {
@@ -33,6 +34,7 @@ const ContactoPage = () => {
 
   return (
     <div className='contact-container'>
+    <Helmet title='VMA-Contacto'></Helmet>
       <div className='containerContacto'>
         <div className='text-container'>
           <h1>Contacto</h1>

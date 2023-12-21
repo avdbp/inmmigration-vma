@@ -1,11 +1,13 @@
 import React from 'react';
 import './HomePage.css';
 import libertad from '../img/libertadBlue.png'
+import { Helmet } from 'react-helmet';
 
 
 const ConsejosPage = () => {
   return (
     <div className='containerHome'>
+    <Helmet title='VMA-Consejos'></Helmet>
      
     <header className='headerUs'  >
     <div>

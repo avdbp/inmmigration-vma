@@ -1,12 +1,18 @@
 import './App.css';
+import React, {Suspense, lazy} from 'react';
 import { Routes, Route } from "react-router-dom";
-import HomePage from './pages/HomePage';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
-import Nosotros from './pages/Nosotros';
-import Servicios from './pages/Servicios';
-import ContactoPage from './pages/ContactoPage';
-import ConsejosPage from './pages/ConsejosPage';
+// import HomePage from './pages/HomePage';
+// import Nosotros from './pages/Nosotros';
+// import Servicios from './pages/Servicios';
+// import ContactoPage from './pages/ContactoPage';
+// import ConsejosPage from './pages/ConsejosPage';
+const Home = lazy(() => import('./pages/HomePage'))
+const Nosotros = lazy(() => import('./pages/Nosotros'))
+const Servicios = lazy(() => import('./pages/Servicios'))
+const ContactoPage = lazy(() => import('./pages/ContactoPage'))
+const ConsejosPage = lazy(() => import('./pages/ConsejosPage'))
 
 function App() {
   return (
@@ -15,15 +21,47 @@ function App() {
         <NavBar />
         
         <Routes>
-          <Route path="/" element={<HomePage />} />
-          {/* <Route path="/" element={<InConstructionPage />} /> */}
-          <Route path="/nosotros" element={<Nosotros />} />
+          
+          <Route element={
+            <Suspense fallback={<h3>Loading...</h3>}>
+              <Home />y
+            </Suspense>
+          }
+          path="/" 
+          />
 
-          <Route path="/servicios" element={<Servicios />} />
+<Route element={
+            <Suspense fallback={<h3>Loading...</h3>}>
+              <Nosotros />y
+            </Suspense>
+          }
+          path="/nosotros" 
+          />
 
-          <Route path="/consejos" element={<ConsejosPage />} />
+<Route element={
+            <Suspense fallback={<h3>Loading...</h3>}>
+              <Servicios />y
+            </Suspense>
+          }
+          path="/servicios" 
+          />
 
-          <Route path="/contacto" element={<ContactoPage />} />
+<Route element={
+            <Suspense fallback={<h3>Loading...</h3>}>
+              <ContactoPage />y
+            </Suspense>
+          }
+          path="/contacto" 
+          />
+
+<Route element={
+            <Suspense fallback={<h3>Loading...</h3>}>
+              <ConsejosPage />y
+            </Suspense>
+          }
+          path="/consejos" 
+          />
+          
         </Routes>
       </div>
 
