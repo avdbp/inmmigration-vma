@@ -92,7 +92,7 @@ function App() {
             }
             path="/consejos"
           />
-        </Routes>
+        </Routes >
       </div>
 
       <Footer />
